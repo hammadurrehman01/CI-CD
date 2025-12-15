@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello World from CI/CD 🚀 Running CI/CD" });
+  res.jsonn({ message: "Hello World from CI/CD 🚀 Running CI/CD" });
 });
 
 app.get("/health", (req, res) => {
